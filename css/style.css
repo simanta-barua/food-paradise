@@ -70,7 +70,6 @@ h2 {
   left: 10px;
   top: 15px;
   border-radius: 5px;
-  
 }
 /* Main banner area */
 .container {
@@ -103,25 +102,25 @@ h2 {
   border-radius: 100px;
   margin-top: 20px;
 }
-.btn:hover{
+.btn:hover {
   background: linear-gradient(45deg, #fba24f -7.64%, #ff1e1e 145.94%);
   color: #fffa;
 }
 /* style for gradiant button */
-.btn-gradient1{
+.btn-gradient1 {
   background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
 }
-.btn-gradient2{
+.btn-gradient2 {
   background: linear-gradient(-88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
 }
 /* contact from */
-.contact-area{
+.contact-area {
   text-align: center;
   padding-top: 200px;
   text-transform: capitalize;
   height: 100vh;
 }
-.contact-area input{
+.contact-area input {
   width: 50%;
   border: 2px solid orangered;
   margin: 10px 0;
@@ -130,9 +129,8 @@ h2 {
   text-transform: capitalize;
   border-radius: 5px;
 }
-.contact-area #submit{
+.contact-area #submit {
   background-color: orangered;
-  
 }
 /* about me */
 .about-me {
@@ -154,12 +152,11 @@ h2 {
 }
 
 /* recipies section */
-.my-recipies
-{
+.my-recipies {
   text-align: center;
   text-transform: capitalize;
 }
-.recipies-area{
+.recipies-area {
   padding-top: 160px;
   font-size: 40px;
   font-weight: 800;
@@ -167,11 +164,10 @@ h2 {
 }
 .recipies-items {
   display: flex;
-  margin: 100PX;
+  margin: 100px;
   align-items: center;
   width: 10xp;
   flex-wrap: wrap;
- 
 }
 .recipies-card {
   max-width: 300px;
