@@ -67,9 +67,10 @@ h2 {
 /* log style */
 .logo img {
   position: absolute;
-  left: 0;
-  top: 0;
-  height: 57px;
+  left: 10px;
+  top: 15px;
+  border-radius: 5px;
+  
 }
 /* Main banner area */
 .container {
@@ -113,6 +114,25 @@ h2 {
 .btn-gradient2{
   background: linear-gradient(-88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
 }
+/* contact from */
+.contact-area{
+  text-align: center;
+  padding-top: 200px;
+  text-transform: capitalize;
+}
+.contact-area input{
+  width: 50%;
+  border: 2px solid orangered;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 30px;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+.contact-area #submit{
+  background-color: orangered;
+  
+}
 /* about me */
 .about-me {
   background-image: url(/img/7.png);
@@ -139,7 +159,7 @@ h2 {
   text-transform: capitalize;
 }
 .recipies-area{
-  margin-top: 50px;
+  padding-top: 160px;
   font-size: 40px;
   font-weight: 800;
   height: 100vh;
