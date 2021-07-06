@@ -1,5 +1,6 @@
 /* Montserrat font */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 /* Global Style */
 html,
 body,
@@ -119,8 +120,12 @@ h2 {
   padding-top: 200px;
   text-transform: capitalize;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
 }
 .contact-area input {
+  text-align: center;
   width: 50%;
   border: 2px solid orangered;
   margin: 10px 0;
@@ -131,13 +136,13 @@ h2 {
 }
 .contact-area #submit {
   background-color: orangered;
+ 
 }
 /* about me */
 .about-me {
   background-image: url(img/7.png);
   background-repeat: no-repeat;
   background-size: cover;
-
   height: 100vh;
 }
 
