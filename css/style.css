@@ -1,0 +1,32 @@
+/* Montserrat font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* Global Style */
+html,
+body,
+div,
+h1,
+h2,
+p,
+span,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* General Style */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-style: normal;
+  font-weight: 800px;
+  font-size: 60px;
+  line-height: 130%;
+  letter-spacing: -0.02em;
+}
+span {
+  color: orange;
+}
