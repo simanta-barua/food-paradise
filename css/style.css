@@ -25,15 +25,15 @@ body {
 h1 {
   font-style: normal;
   font-weight: 900;
-  font-size: 70px;
+  font-size: 4.37rem;
   line-height: 130%;
   letter-spacing: -0.02em;
-  margin: 10px;
+  margin: 0.625rem;
 }
 p {
-  margin: 10px;
+  margin: 0.625rem;
   color: #828282;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 li {
   list-style: none;
@@ -47,7 +47,7 @@ h2 {
 /* nav area sytly */
 .nav-link a {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 2.1875rem;
   color: #ffffff;
   margin-left: 45px;
   text-align: center;
@@ -65,12 +65,14 @@ h2 {
   width: 100%;
   position: fixed;
 }
-/* log style */
+/* logo style */
 .logo img {
   position: absolute;
-  left: 10px;
-  top: 15px;
+  left: 0.625rem;
+  top: 1rem;
   border-radius: 5px;
+  max-width: 100%;
+  height: auto;
 }
 /* Main banner area */
 .container {
@@ -81,12 +83,14 @@ h2 {
 .orange-text {
   color: orange;
 }
+/* disolay flex */
 .d-flex {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+/* for half width */
 .half-width {
   width: 50%;
   margin-left: 20px;
@@ -138,6 +142,7 @@ h2 {
   background-color: orangered;
  
 }
+
 /* about me */
 .about-me {
   background-image: url(img/7.png);
