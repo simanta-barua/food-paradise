@@ -9,21 +9,34 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <!-- nav link area -->
+      <nav>
+        <div class="navbar d-flex">
+          <li class="nav-link logo">
+            <a href="#home"><img src="/img/logo.png" alt="logo" /></a>
+          </li>
+          <li class="nav-link"><a href="#home">home</a></li>
+          <li class="nav-link"><a href="#about">about</a></li>
+          <li class="nav-link"><a href="#recipies">recipies</a></li>
+          <li class="nav-link"><a href="#contac-us">contact us</a></li>
+        </div>
+      </nav>
+    </header>
     <!-- Main banner Start -->
     <section>
-      <div class="container d-flex">
+      <div class="container d-flex" id="home">
         <!-- Main text area -->
         <div class="main-text half-width">
           <h1>
-            <span class="orange-text">Eat</span>Skip The Diet, Just Eat Healthy
-            With Food Network
+            <span class="orange-text"> A fit, </span> healthy body - that is the
+            best fashion statement
           </h1>
           <h2>
             Imagine you don't need a diet because we provide healthy and
             delicious food for you!
           </h2>
-          <a href="#" class="btn btn-gradiant" target="_blank">Oder food</a>
+          <a href="#" class="btn btn-gradient1" target="_blank">Oder food</a>
         </div>
         <!-- Main image area -->
         <div class="top-banner half-width">
@@ -31,74 +44,150 @@
         </div>
       </div>
     </section>
-
+    <!-- Main banner End -->
+    <!-- About me area start -->
     <section>
-      <div class="about-me d-flex">
-        <!-- middle banner area -->
+      <div class="about-me d-flex" id="about">
         <div class="about-banner half-width">
           <img src="/img/female2.png" alt="female2" />
         </div>
         <div class="about-me-text half-width">
           <h1>About Me</h1>
-          <h2>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem,
-            quaerat?
-          </h2>
-          <a href="#" class="btn btn-gradiant" target="_blank">Oder food</a>
+          <h2>Hello There Now I Can Develop A Food Website</h2>
+          <a href="#" class="btn btn-gradient2" target="_blank"
+            >Vist My Github</a
+          >
         </div>
       </div>
     </section>
+    <!-- About me area start -->
+
+    <!-- contact us -->
+    <section>
+      <div class="contact-area" id="contact">
+        <h1>
+          Get in touch
+          </h1>
+          <p>  Want to get in touch? We'd love to hear from you. Here's how you can reach us...</p>
+          <div class="contact-form">
+            <div class="signin">
+              <h2>Already Have An account? <br> Signin Here</h2>
+              <div class="fromgroup">
+                <label for="name">User Name:
+                  <input type="text" name="name" id="name"  placeholder="Enter user name here" required>
+                </label>
+                <label for="password">Password:
+                  <input type="password" name="password" id="password" required>
+                </label>
+              </div>
+            </div>
+            <div class="signup"><h2>New Here? <br> Create An Account</h2></div>
+          </div>
+      </div>
+    </section>
+    <!-- contact us end -->
+
     <!-- recipes area -->
     <section>
-      <div class="my-recipies">
-        <div class="recipies-items">
-             <!-- items list 1-->
-          <div class="recipies-card">
-            <div class="recipies-image">
-              <img src="/img/Project Cover1.png" alt="" />
-            </div>
-            <div class="recipies-text">
-              <h2>Recipie one</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Excepturi dignissimos animi maxime quis. Veniam deserunt dolorem
-                quo quisquam adipisci? Aliquam, cum quis. Voluptate explicabo
-                est dolorum. Nesciunt explicabo doloribus distinctio.
-              </p>
-            </div>
+      <div class="recipies-area" id="recipies">
+        <div class="my-recipies" >
+          <h1>Our Newest Recipes</h1>
+          <p>we deliver 100% healthy food check our newest recipies here</p>
           </div>
-          <!-- items list 2-->
-          <div class="recipies-card">
-            <div class="recipies-image">
-              <img src="/img/Project Cover5.png" alt="" />
-            </div>
-            <div class="recipies-text">
-              <h2>Recipie two</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Excepturi dignissimos animi maxime quis. Veniam deserunt dolorem
-                quo quisquam adipisci? Aliquam, cum quis. Voluptate explicabo
-                est dolorum. Nesciunt explicabo doloribus distinctio.
-              </p>
-            </div>
-          </div>
-             <!-- items list 3-->
-          <div class="recipies-card">
-            <div class="recipies-image">
-              <img src="/img/Project Cover8.png" alt="" />
+          <div class="recipies-items">
+            <!-- items list 1-->
+            <div class="recipies-card">
+              <div class="recipies-image">
+                <img src="/img/Project Cover1.png" alt="" />
               </div>
-            <div class="recipies-text">
-              <h2>Recipie three</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Excepturi dignissimos animi maxime quis. Veniam deserunt dolorem
-                quo quisquam adipisci? Aliquam, cum quis. Voluptate explicabo
-                est dolorum. Nesciunt explicabo doloribus distinctio.
-              </p>
+              <div class="recipies-text">
+                <h2>Foodie Crush</h2>
+                <p>Veniam deserunt dolorem quo quisquam adipisci?</p>
+              </div>
             </div>
+            <!-- items list 2-->
+            <div class="recipies-card">
+              <div class="recipies-image">
+                <img src="/img/Project Cover5.png" alt="" />
+              </div>
+              <div class="recipies-text">
+                <h2>Party Fowl</h2>
+                <p>Excepturi Veniam deserunt dolorem!!</p>
+              </div>
+            </div>
+            <!-- items list 3-->
+            <div class="recipies-card">
+              <div class="recipies-image">
+                <img src="/img/Project Cover8.png" alt="" />
+              </div>
+              <div class="recipies-text">
+                <h2>Still Hungry</h2>
+                <p>Repellendus earum nisi incidunt ratione?</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Social section -->
+    <section>
+      <div class="social-link d-flex">
+        <div class="social-card">
+          <div class="social-icon">
+            <div>
+              <a href="#facebook"><img src="/img/facebook.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="social-title">
+            <h2>700k</h2>
+            <p>Facebook Likes</p>
+          </div>
+        </div>
+        <!-- insta -->
+        <div class="social-card">
+          <div class="social-icon">
+            <div>
+              <a href="#instagram"><img src="/img/instagram.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="social-title">
+            <h2>12.2m</h2>
+            <p>Instagram</p>
+          </div>
+        </div>
+        <!-- twiter -->
+        <div class="social-card">
+          <div class="social-icon">
+            <div>
+              <a href="#twiter"><img src="/img/twitter.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="social-title">
+            <h2>6.2m</h2>
+            <p>twitter followers</p>
+          </div>
+        </div>
+        <!-- youtube -->
+        <div class="social-card">
+          <div class="social-icon">
+            <div>
+              <a href="#Youtube"><img src="/img/youtube.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="social-title">
+            <h2>50k</h2>
+            <p>Youtube Subscriber</p>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- footer area -->
+    <footer>
+      <div class="footer-area">
+        <h1><span>Food</span> Paradise</h1>
+        <p>Eat healthy food, stay healthy</p>
+      </div>
+    </footer>
   </body>
 </html>
