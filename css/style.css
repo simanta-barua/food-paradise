@@ -32,10 +32,15 @@ p{
 
 margin: 10px;
 color: #828282;
-font-size: 30px;
-
-
+font-size: 20px;
 }
+h2{
+
+  margin: 10px;
+  color: #828282;
+  font-size: 35px;
+  font-weight: bolder;
+  }
 .container {
   height: 100vh;
   padding-left: 5em;
@@ -82,4 +87,33 @@ font-size: 30px;
 }
 .about-me-text > .btn{
   margin-top: 100px;
+}
+.recipies-items{
+  display: flex;
+  align-items: center;
+  width: 10xp;
+  flex-wrap: wrap;
+  
+}
+.recipies-card{
+  max-width: 300px;
+  height: 400px;
+  margin: 100px;
+  padding: 40px;
+  overflow: hidden;
+  border-radius: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+}
+ .recipies-image img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 40px;
+  
+}
+recipies-text{
+  width: 100%;
+  height: auto;
+ 
 }
